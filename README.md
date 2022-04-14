@@ -1,9 +1,4 @@
-<p align="center">
-  <a href="https://www.udacity.com/">
-    <img src='https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5511/s300/udacity-logo.png' alt="Udacity logo" width = 100px>
-   </a>
-</p>
-<h3 align="center"><a href='https://www.udacity.com/course/data-analyst-nanodegree--nd002'> Udacity Data Analyst Nanodegree </a></h3>
+
 <h4 align="center">Project V: Communicate-Data-Findings</h4>
 
 ## Table of Contents
@@ -20,7 +15,7 @@
 - [Results](#results)
 - [Key Insights for Presentation](#kip)
 - [Why this project?](#p) 
-- [Licensing, Authors, and Acknowledgements](#licensing)
+
 
 ## Installation <a name="installation"></a>
 This project uses Python 3 and is designed to be completed through the Jupyter Notebooks IDE. It is highly recommended that you use the [Anaconda distribution](https://www.anaconda.com/distribution/) to install Python, since the distribution includes all necessary Python libraries as well as Jupyter Notebooks. The following libraries are expected to be used in this project:
@@ -111,47 +106,17 @@ This data set contains information on peer to peer loans facilitated by credit c
  
 ### Results <a name="results"></a>
 
-- Most of the loans in the data set are actually current loans. Past due loans are split in several groups based on the length of payment delay. Other big part is completed loans, defaulted loans compromise a minority, however chargedoff loans also comporomise a substanial amount.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-1.png">
-</p>
-- The majority of borrowers are employed and all other categories as small part of borrowers. In small Group full time has highest, after that self empolyed are there and so on.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-2.png">
-</p>
-- With a boundary of mean and 3 times standard deviations distribution of monthly income still has noticeable right skew but now we can see that mode is about 5000. 
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-3.png">
-</p>
-- The most frequent rating among defaulted loans is actually D. And the most frequent rating among Completed is alsoDand second highest is A and so on in Status and Prosper Rating.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-4.png">
-</p>
-- In both of them Credit Start with Listing Category Graphs of the debt Consolidation have most frequency among all of them.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-5.png">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-6.png">
-</p>
-- Lower ratings seem to have greater proportions of individuals with employment status Not Employed, Self-employed, Retired and Part-Time. 
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-7.png">
-</p>
-- Except for the lowest ratings defaulted credits tend to be larger than completed. Most of the defaulted credits comes from individuals with low Prosper rating.
-<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-8.png">
-</p>
-- Except for Auto, Business and Home Improvemrnt dont have nearly equal mean amoong all of them. Business category tend to have larger amount.<p align = "center">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-9.png">
-  <img src="https://raw.githubusercontent.com/Abhishek20182/Communicate-Data-Findings/master/Result/Result-10.png">
-</p>
+In the exploration, I found that there was a moderate relationship between loan amounts and the rates (BorrowerRate/BorrwerAPR) with several different Credit Grades/Prosper Ratings given to Prosper customers. For customers that have no credit we see an upward slope with the loan amounts increasing and APR. Grades E and D seem to have a negative slope which aligns with bivariate findings, while anything higher than those two we can see the slope getting less steep  in a positive trend therefore higher grade assigned to the loan means the loan amount and rates will go up. This was an interesting finding because plotting loan amounts and the rates gives us a negative trend line. The relationship between loan amounts and interest/APR wasn't exactly linear but it showed an obvious negative correlation trend since in general the lower loan amount thats given by Prosper is tied to a higher % rate which makes total sense for a credit issuing company. I was disappointed with the correlation factors of my predictors variables in choosing, I could of selected better predictor variables to compare with loan amounts. I figured monthly income would be a good indicator of wether someone would recieve a higher amount loan. 
+
+Other than the main variable loan amounts I verified the relationship between the % rates.
+The rates had a 1:1 relationship which was not surprising, they were directly related to each other as most findings showed that if APR rose the interest would rise in relation to that APR. 
 
 ## Key Insights for Presentation <a name="kip"></a>
-I've chosen key plots with high data-to-ink ratio for the presentation. The plots I've chosen shows distribution of main variables, Loan status, monthly income, Prosper rating and I've tried to tell a story what are major predictors for loan status and Prosper rating variables.
+
+For the presentation, I will focus on the distributions of the main variable along with the percentage rates (BorrowerRate/BorrowerAPR). Afterwards, I will introduce the categorical variables compared to the main variables. 
+
    
 ### Why this project? <a name="p"></a>
 
 Data visualization is an important skill that is used in many parts of the data analysis process. **Exploratory** data visualization generally occurs during and after the data wrangling process, and is the main method that you will use to understand the patterns and relationships present in your data. This understanding will help you approach any statistical analyses and will help you build conclusions and findings. This process might also illuminate additional data cleaning tasks to be performed. **Explanatory** data visualization techniques are used after generating your findings, and are used to help communicate your results to others. Understanding design considerations will make sure that your message is clear and effective. In addition to being a good producer of visualizations, going through this project will also help you be a good consumer of visualizations that are presented to you by others.
 
-
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-Must give credit to Udacity for the data. You can find the Licensing for the data and other descriptive information at the Udacity Website.
