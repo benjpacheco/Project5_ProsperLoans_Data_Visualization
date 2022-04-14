@@ -17,6 +17,4 @@ The rates had a 1:1 relationship which was not surprising, they were directly re
 
 ## Key Insights for Presentation
 
-> For the presentation, I will focus on the distributions of the main variable along with the percentage rates (BorrowerRate/BorrowerAPR).
-
-Afterwards, I will introduce the categorical variables compared to the main variables. 
+> For the presentation, I will focus on the distributions of the main variable along with the percentage rates (BorrowerRate/BorrowerAPR). Afterwards, I will introduce the categorical variables compared to the main variables. 
