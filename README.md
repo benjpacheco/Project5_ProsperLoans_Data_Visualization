@@ -1,5 +1,5 @@
 
-<h4 align="center">Project V: Communicate-Data-Findings</h4>
+<h1 align="center">Project V: Communicate-Data-Findings</h1>
 
 ## Table of Contents
 - [Installation](#installation)
