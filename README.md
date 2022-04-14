@@ -24,23 +24,6 @@ This project uses Python 3 and is designed to be completed through the Jupyter N
 - Pandas
 - Matplotlib
 - Seaborn
-
-## Project Motivation <a name="motivation"></a>
-
-This is an Udacity Nanodegree project.I was interested in using Prosper Loan Data to better understand : </br>
-- Univariate Exploration:
-  - Loan status
-  - Employment Status
-  - Stated Monthly Income
-- Bivariate Exploration:
-  - Status and Prosper Rating
-  - Credit Start with Listing Category
-  - Loan Status and Loan Amount
-  - Prosper Rating and Employment Status
-- Multivariate Exploration:
-  - Rating, Loan Amount and Loan Status
-  - Credit category, Credit rating and outcome of Credit
-  - Amount, Listing Category Loan and Loan Status Interact
   
 ### Project Overview <a name="po"></a>
 
