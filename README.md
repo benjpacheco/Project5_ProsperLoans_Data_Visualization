@@ -3,7 +3,6 @@
 
 ## Table of Contents
 - [Installation](#installation)
-- [Project Motivation](#motivation)
 - [Project Overview](#po)
 - [Project Details](#pd)
   - [Choose your Dataset](#choose)
