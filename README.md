@@ -1,5 +1,5 @@
 
-<h1 align="center">Project V: Communicate-Data-Findings</h1>
+<h1 align="center">Prosper Loans Data Visualization</h1>
 
 ## Table of Contents
 - [Installation](#installation)
