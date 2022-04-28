@@ -1,2 +1,7 @@
-.ipynb_checkpoints
-output-toggle.tpl
+*.pyc
+.idea/
+**/.idea/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+**/.cache/
+.vscode
